@@ -1,5 +1,5 @@
 {
-  "name": "clearvision",
+  "name": "TheWitcherTheme",
   "description": "Highly customizable theme for BetterDiscord.",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/ClearVision/ClearVision-v6.git"
   },
-  "author": "Zerthox",
+  "author": "Maciejos1223",
   "contributors": [
     "Leozard",
     "Mentalscars",
@@ -26,9 +26,9 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ClearVision/ClearVision-v6/issues"
+    "url": "https://github.com/maciejos1223/TheWitcherTheme/issues"
   },
-  "homepage": "https://clearvision.github.io",
+  "homepage": "https://github.com/maciejos1223",
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "postcss-cli": "^9.1.0",
