@@ -1,0 +1,34 @@
+/* TAGGED USERS */
+// prettier-ignore
+$tagged: (
+	// Admins
+	"614769205082062871": "CV Admin",			// Maciejos1223
+
+	// Team
+	"614769205082062871": "CV Team",			// Maciejos1223
+	// Contributors
+	"614769205082062871": "CV Contributor",		// Maciejos1223
+
+	// Legacy Donators
+	"614769205082062871": "CV Donator",			// Maciejos1223
+);
+
+// OUTPUT
+%messageContent > img {
+  & ~ %messageHeader > %messageHeaderText > %messageUsername::after {
+    content: none;
+    color: currentcolor;
+    text-shadow: 0 0 2px currentcolor;
+    border: 1px solid;
+    border-radius: 6px;
+    margin-left: 8px;
+    background-color: rgba(255, 255, 255, 0.07);
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  @each $user_id, $tag in $tagged {
+    &[src*='#{$user_id}'] ~ %messageHeader > %messageHeaderText > %messageUsername::after {
+      content: $tag;
+    }
+  }
+}
