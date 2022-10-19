@@ -1,0 +1,13 @@
+# File is read top to bottom, with the bottom-most line taking precedence.
+# Only applies on creation of pull requests, does nothing anywhere else.
+
+# Default owners of files NOT listed below.
+*                           @maciejos1223
+
+# All theme-related files are owned by the entire maciejos1223.
+*.scss                      @maciejos1223
+*.css                       @maciejos1223
+powercord_manifest.json     @maciejos1223
+
+# If, for example, the TheWitcher.theme.css file was modified, the maciejos1223 would be notified to review that pull request.
+# If the LICENSE file was modified, then the maciejos1223 would be notified instead.
