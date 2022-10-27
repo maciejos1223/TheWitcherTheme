@@ -1,5 +1,5 @@
-# TheWitcherTheme
-TheWitcherTheme
+# TheWitcher
+theme for The Witcher fans.
+> This is a remake of the ClearVision theme by [ClearVision Team](github.com/ClearVision).
 
-
-none
+![Preview](https://i.imgur.com/ijS8bO9.png)
